@@ -1,0 +1,25 @@
+/*.ticket-userinfo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}*/
+
+.ticket__body {
+    padding: 2%;
+}
+
+.ticket__add-reply {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.ticket__user-info {
+    color: #585858;
+}
+
+.ticket__content p {
+    padding: 1%;
+    font-size: medium;
+    white-space: pre-wrap;
+}

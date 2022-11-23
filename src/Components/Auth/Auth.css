@@ -1,0 +1,28 @@
+.panel {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-inline: 10%;
+}
+
+.panel-header {
+    background-image: url('/public/images/background-auth.jpg');
+    background-size: 335px 110px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    align-items: center;
+}
+
+.panel-title {
+    font-size: x-large;
+}
+
+.img-logo-panel {
+    height: 90px;
+}
+
+.panel-content {
+    padding-top: 1rem;
+}

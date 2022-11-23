@@ -1,0 +1,41 @@
+.part {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    background-image: url('/public/images/fondo.png');
+    background-repeat: no-repeat;
+    background-size: 1345px 400px;
+}
+
+.copyright-text {
+    text-align: center;
+    padding-top: 2.5em;
+    margin: 0;
+}
+
+.how-to-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.htp-txt {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.play-now {
+    font-size: 18px;
+    width: 200px;
+}
+
+.play-now-space {
+    padding: 15px;
+}
+
+.text-welcome {
+    font-size: larger;
+    padding: 0.5rem;
+}

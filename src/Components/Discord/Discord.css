@@ -1,0 +1,22 @@
+.discord__card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    margin-inline: 5%;
+
+    display: flex;
+}
+
+.discord__card_info {
+    padding-left: 2%;
+    text-align: start;
+}
+
+.discord__img_avatar {
+    border-radius: 50%;
+}
+
+.discord__confirm {
+    margin-top: 2em;
+}

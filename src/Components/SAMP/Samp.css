@@ -1,0 +1,145 @@
+.samp-bg {
+    width: 1344px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0.7;
+    filter: grayscale(100%);
+}
+
+.samp-top {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.avatar-space {
+    padding-top: 15px;
+    width: 120px;
+    margin-inline: auto;
+}
+
+.avatar {
+    border: 1px solid #fff;
+    margin-inline: auto;
+    background-image: url('/public/images/fondo.png');
+    background-repeat: no-repeat;
+    background-size: 122px 122px;
+    width: 122px;
+    height: 122px;
+}
+
+.panel-items {
+    display: flex;
+    justify-content: center;
+    margin-inline: 10%;
+    margin-top: 1em;
+    margin-bottom: 3.5em;
+    flex-wrap: wrap;
+    gap: 9.5em;
+}
+
+.panel-item-info {
+    margin-inline: 1em;
+}
+
+.panel-items-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    justify-content: center;
+}
+
+.item-content {
+    text-align: center;
+    margin-inline: 2%;
+}
+
+.item-title {
+    font-weight: bolder;
+    background-color: #0681c9;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(3, 118, 201, 0.2);
+    text-align: center;
+    padding: 3px;
+    text-transform: uppercase;
+}
+
+.icon-lics {
+    font-size: 20px;
+}
+
+.lang-samp {
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 30%;
+}
+
+.disable {
+    opacity: 0.2;
+}
+
+.no-dispo {
+    filter: grayscale(100%);
+}
+
+.panel-items-text {
+    display: flex;
+    justify-content: center;
+    margin-inline: 10%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+/* SAMP-NAV */
+
+.samp-nav {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-samp-nav li {
+    display: inline-block;
+    padding: 15px;
+    width: 150px;
+    margin-inline: 5px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: #111;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.list-samp-nav li:hover {
+    background-color: #0bdf55;
+    color: #FFFFFF;
+}
+
+/* VEHICULOS */
+
+.veh-info {
+    padding: 1em;
+    display: flex;
+    width: 30em;
+}
+
+.veh-data {
+    margin-left: 1em;
+}
+
+/* CREAR PJ */
+
+.text-input {
+    padding-left: 1em;
+    color: #111;
+    margin: 10px;
+}
